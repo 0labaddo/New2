@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>Our Courses</h1>
+        </section>
+
+
+<!------ Course ------>
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>At Eduford, we believe in the transformative power of education, and our diverse range of courses caters to students at every stage of their academic journey. Whether you're stepping into
+        intermediate studies, pursuing a degree, or reaching for post-graduate excellence, our programs are crafted to inspire and empower.
+    </p><br>
+    <h2>Explore Our Course Categories</h2>
+
+         <div class="row">
+            <div class="course-col">
+                <h3>Intermediate Level Courses</h3>
+                <p>
+                    Advance your skills with our intermediate-level courses designed to deepen your understanding and prepare you for the academic challenges ahead.<br>
+                    Examples: Intermediate Programming, Strategic Marketing Fundamentals, Advanced Language Proficiency.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree Programs</h3>
+                <p>
+                    Immerse yourself in a world-class education with our comprehensive degree programs. Tailored for in-depth learning and skill development, these programs set the foundation for your future success.<br>
+                    Examples: Bachelor of Science in Computer Science, Bachelor of Business Administration, Bachelor of Fine Arts in Visual Arts.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate Excellence</h3>
+                <p>
+                    Elevate your expertise with our post-graduate programs, designed for those seeking advanced knowledge and leadership roles. Engage in cutting-edge research and contribute to your field's advancement.<br>
+                    Examples: Master of Science in Data Analytics, MBA in Global Business Leadership, Doctorof Philosophy in Enviromental Science.
+                </p>
+            </div>
+         </div>
+
+</section>
+
+<!------ facilities ------>
+
+
+<section class="facilities">
+
+    <h1>Exceptional Spaces: Our Facilities</h1>
+    <p>Experience learning in top-notch facilities at Eduford. Our online campus offers state-of-the-art virual library, educative cyber playzone, and helpful student support services - designed
+        to inspire innovation and persnal growth. Discover excellence in every corner as you embark on your educational journey wth us.
+    </p> 
+    <div class="row">
+       <div class="facilities-col">
+           <img src="images/4c5e8e829da749d4f23c55ad510d8e4d5d9faa4f.jpg">
+          <h3>Dive into a World of Knowledge: Eduford's Virtual Library</h3>
+          <p>Explore a vast collection of e-books, journals, and research resources tailored for your academic journey. Our user-friendly interface ensures seamless navigation, available
+            24/7 to fit your schedule. Engage in collaborative study groups, utilize cutting edge research tools, and elevate your learning experience at Eduford. Your academic adventure begins in our virtual library.
+          </p>
+       </div>
+
+       <div class="facilities-col">
+           <img src="images/50e1053ea8b8573436f5047ca2819cc56fdd37c7.jpg">
+           <h3>Unleash Fun in Learning: Eduford's Cyber Playzone</h3>
+           <p>
+             Discover a new dimension of learning at Eduford's Cyber Playzone - where education meets excitement. It's not just a virtual space; it's your playground for interactive
+             experiences, live challenges, and a vibrant community. Join us for an immersive journey where fun and learning collide.
+           </p>
+       </div>
+       <div class="facilities-col">
+           <img src="images/967a6ed7b0d51e6c1fea4da809b310df5c3bf3e4.jpg">
+           <h3>Guidance at Every Step: Eduford's Student Support</h3>
+           <p>
+            Navigate your academic journey seamlessly with our comprehensive Student Support at Eduford. Benefit from personalized academic advising, counseling services, technical 
+            support, career guidance, and online tutoring. We're here to empower your success at every turn.
+                   </p>
+       </div>
+    </div>  
+   </section>
+
+
+
+
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Nurturing Minds, Empowering Futures. Dive into the story of Eduford, where online education meets excellence. Learn about our mission, values,<br> and the dedicated team shaping the next generation of leaders. Your academic journey starts with us.</p>
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+         <p>Made with <i class="fa fa-heart-o"></i> By Horla</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+   var navLinks = document.getElementById("navLinks") 
+   function showMenu(){
+    navLinks.style.right = "0";
+   }
+   function hideMenu(){
+    navLinks.style.right = "-200px";
+   }
+
+</script>
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                 <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>About Us</h1>
+        </section>
+
+
+<!------ about us content ------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+                <p>Welcome to Eduford, your gateway to a world-class online education. Established with a vision to make quality education accessible to learners across the globe, we take pride in being a leading online university dedicated to fostering academic excellence, innovation, and personal growth.</p><br>
+                <h2>Our Mission</h2><br>
+                <p>At Eduford, our mission is to empower individuals with knowledge and skills that transcend geographical boundaries. We are committed to providing flexible, engaging and rigorous online programs that cater to diverse learning styles and career aspirations. Through cuttingedge curriculum design and a committment to student success, we aim to shape the next generation of leaders and professionals.</p><br>
+                <h2>Why Choose Eduford?</h2><br>
+                <ul>
+                    <li><p>Global Faculty Network: Our faculty comprises accomplished educators and industry experts from around the world. They bring real-world experience and a passion for teaching to create a dynamic and enriching learning environment.</p></li>
+                    <li><p>Innovative Learning Technologies: We leverage state-of-the-art online learning technologies to deliver an immersive and interactive educational experience. Our platform is designed to foster collaboration, critical thinking, and hands-on learning.</p></li>
+                    <li><p>Flexible Learning: Life is dynamic, and so is your education. With [University Name], you have the flexibility to study at your own pace, allowing you to balance work, family, and other commitments while pursuing your academic goals.</p></li>
+                    <li><p>Comprehensive Programs: Whether you're seeking a degree, professional certification, or personal enrichment, our diverse range of programs spans various disciplines. From business and technology to arts and sciences, we offer a comprehensive suite of courses tailored to meet the demands of the modern world.</p></li>
+                </ul><br>
+                <h2>Our Commitment to Excellence</h2><br>
+                <p>At Eduford, excellence is not just a goal; it's our standard. We are dedicated to providing a supportive learning community where students thrive academically and personally. Our commitment to academic rigor, integrity, and inclusivity creates an environment where every learner can reach their full potential.</p><br>
+                <h2>Join Our Community</h2><br>
+                <p>Embark on a transformative educational journey with Eduford. Whether you're a working professional, a recent graduate, or someone seeking personal enrichment, our online university is designed to meet your unique needs. <br> Explore our programs, connect with our faculty, and discover the possibilities that await you at Eduford. Your future starts here.</p>           
+           
+                <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Nurturing Minds, Empowering Futures. Dive into the story of Eduford, where online education meets excellence. Learn about our mission, values,<br> and the dedicated team shaping the next generation of leaders. Your academic journey starts with us.</p>
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+         <p>Made with <i class="fa fa-heart-o"></i> by Horla</p>
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+   var navLinks = document.getElementById("navLinks") 
+   function showMenu(){
+    navLinks.style.right = "0";
+   }
+   function hideMenu(){
+    navLinks.style.right = "-200px";
+   }
+
+</script>
+
+
+
+
+
+    </body>
+</html>
